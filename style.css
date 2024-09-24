@@ -1,0 +1,117 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:5px;
+
+}
+
+.home h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    padding-bottom: 10px;
+    
+}
+
+.home ul{
+    color: black;
+    font-size:30px;
+    border-radius: 20px;
+    list-style: none;
+    /* border: 2px solid red; */
+}
+
+.home li{
+    text-decoration: none;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* border: 1px solid yellow; */
+    padding: 10px;
+    /* border-radius: 20px; */
+}
+
+.home a { color: black
+    
+}
+
+.home .container {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(197, 197, 197);
+    /* border: 1px solid blue; */
+}
+
+.home .title {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    background-color: rgb(231, 227, 227);
+}
+
+.home .recipes {
+    /* border: 1px solid green; */
+    border-radius: 20px;
+}
+
+
+.home .odd {
+    background-color: aliceblue;
+}
+
+.even {
+    background-color: rgb(186, 255, 255);
+}
+
+.home .first{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.home .last {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.recipe .ingredients, .recipe .steps{
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+.recipe ul {
+    padding-left:20px
+}
+
+.recipe ol {
+    padding-left: 20px;
+}
+
+
+.recipe .intro {
+    border: 1px solid rgb(205, 205, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    
+}
+
+.recipe img{
+    border-radius: 10px;
+}
+
+/* .recipe .intro h3 {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid red;
+    
+    
+} */
+
+
+/* .recipe .intro p {
+    display: block;
+} */
